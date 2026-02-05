@@ -14,7 +14,7 @@ function divide(num1, num2) {
   return num1 / num2;
 }
 
-function caculator(a, b, operation) {
+function calculator(a, b, operation) {
   if (operation === "add") {
     const result = add(a, b);
     return result;
@@ -30,5 +30,5 @@ function caculator(a, b, operation) {
   }
 }
 
-const result = caculator(5, 7, "add");
+const result = calculator(5, 7, "divide");
 console.log(result);
